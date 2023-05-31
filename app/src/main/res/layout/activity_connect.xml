@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConnectActivity"
+    android:orientation="vertical"
+    android:background="#221E40">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Octopus"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        />
+    <ImageView
+        android:layout_width="221dp"
+        android:layout_height="193dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/icon2" />
+
+
+    <Button
+        android:id="@+id/hitungBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Hitung Persen"/>
+
+    <Button
+        android:id="@+id/ubahBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Ubah Persen"/>
+
+</LinearLayout>
